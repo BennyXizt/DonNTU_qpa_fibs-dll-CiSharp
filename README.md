@@ -5,3 +5,13 @@
 ### Вариант 13
 ### Задание
 1) Генерация n-го числа простых чисел (в заданном интервале), расчёт n-го числа членов ряда Фиббоначчи.
+### Как подключить библиотеку
+1) Скачиваете dll-файл по пути bin\Debug -> Fibsset.dll в папку с проектом
+2) В Обозревателе решений ищете вкладку "References" -> "Add reference" -> Находите скаченный dll -> Готово!
+### Доступные методы
+1) Найти сумму чисел, образующую число Фибоначчи
+> public static List<int> findATwoNumbers(int element)
+2) Сгенерировать числа Фибоначчи в диапазоне
+> public static List<int> generateInInterval(int min, int amount)
+3) Сгенерировать числа Фибоначчи в интервале
+> public static List<int> generateInRange(int range)
